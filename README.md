@@ -32,13 +32,13 @@ _This project builds a convolutional neural network model to classify MRI images
   - Number of classes / labels: `4`
   - Number of samples:
     1. Glioma Tumor = 901 Image
-      ![alt](./docs_img/Glioma.png)
+        ![alt](./docs_img/Glioma.png)
     2. Meningioma Tumor = 913 Image
-      ![alt](./docs_img/Meningioma.png)
+        ![alt](./docs_img/Meningioma.png)
     3. Normal = 438 Image
-      ![alt](./docs_img/Normal.png)
+        ![alt](./docs_img/Normal.png)
     4. Pituitary Tumor = 844 Image
-      ![alt](./docs_img/Pituitary.png)
+        ![alt](./docs_img/Pituitary.png)
 
 ---
 
@@ -71,13 +71,13 @@ _This project builds a convolutional neural network model to classify MRI images
   - F1-score: `86.694`
 - **Visualizations**:
   - Loss & Accuracy Curves:
-    ![alt](./docs_img/Loss%20and%20Accuracy%20Graph.png)
+      ![alt](./docs_img/Loss%20and%20Accuracy%20Graph.png)
 
 ---
 
 ## Project Motivation
 
-_This project is made by a team for the purpose of a university course project._
+_This project is made by a team for the purposes of a university course project._
 
 ---
 
@@ -89,8 +89,6 @@ _This project could be improved further with more complex models to improve the 
 
 ## License
 
-```text
 This project is licensed under the MIT License.
-```
 
 > Note: This project uses a model trained on the Brain tumor 256x256 dataset provided by Kaggle. The dataset is subject to Kaggle’s terms of use and is not redistributed here.
