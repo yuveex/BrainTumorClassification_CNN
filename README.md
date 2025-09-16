@@ -1,6 +1,4 @@
-# Project Title
-
-_Brain Tumor Image Classification with Convolutional Neural Network_
+# Brain Tumor Image Classification with Convolutional Neural Network
 
 ---
 
@@ -10,8 +8,6 @@ _Brain Tumor Image Classification with Convolutional Neural Network_
 - [Dataset](#dataset)
 - [Model](#model)
 - [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Project Motivation](#project-motivation)
 - [Future Work](#future-work)
 - [License](#license)
@@ -30,15 +26,23 @@ _This project builds a convolutional neural network model to classify MRI images
 - **Description**:
   - Image dimension: `256x256`
   - Number of classes / labels: `4`
-  - Number of samples:
-    1. Glioma Tumor = 901 Image
-        ![alt](./docs_img/Glioma.png)
-    2. Meningioma Tumor = 913 Image
-        ![alt](./docs_img/Meningioma.png)
-    3. Normal = 438 Image
-        ![alt](./docs_img/Normal.png)
-    4. Pituitary Tumor = 844 Image
-        ![alt](./docs_img/Pituitary.png)
+- **Classes**:
+    - Glioma Tumor = `901 Images`
+
+      ![alt](./docs_img/Glioma.png)
+
+    - Meningioma Tumor = `913 Images`
+
+      ![alt](./docs_img/Meningioma.png)
+
+    - Normal = `438 Images`
+
+      ![alt](./docs_img/Normal.png)
+
+    - Pituitary Tumor = `844 Images`
+
+      ![alt](./docs_img/Pituitary.png)
+
 
 ---
 
@@ -59,6 +63,10 @@ _This project builds a convolutional neural network model to classify MRI images
   | conv2d_3 (Conv2D)              | (None, 24, 24, 256)   | 590080  |
   | max_pooling2d_3 (MaxPooling2D) | (None, 12, 12, 256)   | 0       |
   | conv2d_4 (Conv2D)              | (None, 10, 10, 512)   | 1180160 |
+
+- **Layers Diagram**:
+
+  ![alt](./docs_img/CNN%20Model%20Diagram.png)
 
 ---
 
